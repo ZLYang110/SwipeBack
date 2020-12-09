@@ -1,0 +1,3 @@
+rootProject.name='SwipeBack'
+include ':app'
+include ':swipeback'

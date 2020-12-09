@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+   >
+    <com.zlylib.titlebarlib.ActionBarCommon
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:ab_immersion="immersed"
+        app:ab_statusBarVisible="auto"
+        app:ab_titleBarHeight="44dp"
+        app:abc_titleText="@string/app_name"
+        app:abc_titleTextColor="@android:color/white" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish Activity"
+        android:onClick="finish"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start New Activity"
+        android:onClick="start"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="滑动返回动画效果" />
+    <RadioGroup
+        android:id="@+id/tracking_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/mode_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/tracking_mode_left"/>
+
+        <RadioButton
+            android:id="@+id/mode_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tracking_mode_right"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/mode_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tracking_mode_top"/>
+        <RadioButton
+            android:id="@+id/mode_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tracking_mode_bottom"/>
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="滑动返回动画效果" />
+    <RadioGroup
+        android:id="@+id/rg_transformer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_parallax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="move" />
+
+        <RadioButton
+            android:id="@+id/rb_shrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shrink" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SwipeBack</string>
+    <string name="key_tracking_mode">key_tracking_mode</string>
+    <string name="tracking_mode_left">Left</string>
+    <string name="tracking_mode_right">Right</string>
+    <string name="tracking_mode_top">Top</string>
+    <string name="tracking_mode_bottom">Bottom</string>
+
+</resources>
