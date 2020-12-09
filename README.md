@@ -2,11 +2,11 @@
 SwipeBackLayout侧滑关闭页面
 
 ## 效果预览
-![](https://github.com/bjchenxz/SwipeBack/raw/master/gif/1.gif)
+![](https://github.com/ZLYang110/SwipeBack/tree/master/gif/1.gif)
 ## 使用方式
 ### build.gradle文件
 ```
-implementation 'com.cxz:swipeback:1.0.1'
+implementation 'com.github.ZLYang110:SwipeBack:1.0.1'
 ```
 ### Activity继承SwipeBackActivity
 ```
