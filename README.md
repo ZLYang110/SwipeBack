@@ -1,5 +1,6 @@
 # SwipeBack
 SwipeBackLayout侧滑关闭页面
+适配AndroidX
 
 ## 效果预览
 ![](https://github.com/ZLYang110/SwipeBack/tree/master/gif/1.gif)
